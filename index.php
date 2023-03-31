@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive Portfolio Website</title>
+
+	<!--custom css style-->
+	<link rel="stylesheet" href="css/style.css">
+
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	
+
+	<!--HEADER DESING-->
+	<header>
+		<a href="" class="logo"><span>LTech</span>.Web</a>
+
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#portfolio">Porfolio</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+		</ul>
+
+		<div class="bx bx-menu" id="menu-icon">
+			
+		</div>
+	</header>
+
+
+	<!--HOME SECTION-->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hallo</span>
+				<span class="two">I'm</span>
+			</div>
+			<h1>Ltech web</h1>
+			<h3>UI/Web <span>Developer.</span></h3>
+			<p>Web Developer with 3+ years experience that keep customers <br> coming back for more of our services.</p>
+			
+			<div class="buttom">
+				<a href="#" class="btn">DOWNLOAD CV</a>
+				<a href="#" class="btn2"><span><i class='bx bx-play'></i></span>Watch me working</a>
+			</div>
+		</div>
+	
+	</section>
+
+	<!-- ABOUT US SECTION-->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/pages-becomea-volunteer.jpg" alt="">
+		</div>
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+			<h4>Creative UI/UX Designer!</h4>
+			<p>Check out 10 Best Design's updates for the top web design & development companies for your needs by reviewing our list & development companies! Find the best web design. Web Design Consulting.Comprehensive Directory. Top Reviewed Design Firms. Types: Enterprise Design Firms, Startup Design Firms, Custom Design Firms, eCommerce Design Firms, App Design Firms. Custom Web Solution. 24x7 Customer Support. Secure Payment Gateway. Get A Free Web Quote. 24/7 Chat Support. Services: Web Page Design, Landing Page Design, App development, Mobile Website Design</p>
+			<a href="" class="btn">More About Me</a>
+		</div>
+	</section>
+
+	<!-- SERVICES SECTION-->
+	<section class="services" id="services">
+		<div class="main-text">
+			<p>What I am an Expert In</p>
+			<h2><Span>My </Span> Services</h2>
+		</div>
+
+		<div class="services-content">
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-code-alt'></i>
+				</div>
+				<h3>Web Development</h3>
+				<p>Ltech Web Consultant is specialized in UI(User Interface) , Web developement and in finding digital solutions for yor work.</p>
+				<a href="" class="read">Read More</a>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-edit-alt'></i>
+				</div>
+				<h3>Creative Design</h3>
+				<p>It Can't be any easier to have your brand shine all around the glob by having the best team working on your design. get it done today.</p>
+				<a href="" class="read">Read More</a>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bxs-user-account'></i>
+				</div>
+				<h3>Paper Work</h3>
+				<p>Have your paper work taken care of by professionals. it can be typed and organized in a very systematic way to save you time.</p>
+				<a href="" class="read">Read More</a>
+			</div>
+		</div>
+	</section>
+
+	<!--PORTFOLIO SECTION-->
+	<section class="portfolio" id="portfolio">
+		<div class="main-text">
+			<p>Portfolio</p>
+			<h2><Span>Latest </Span> Project</h2>
+		</div>
+
+		<div class="portfolio-content">
+			<div class="row">
+				<img src="img/fundraishing-bg-o.jpg" alt="">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check out 10 Best Design's Updates for the top web design & development companies.</p>
+					<a href="#"><i class='bx bx-link-alt'></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/fundraishing-bg.jpg" alt="">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check out 10 Best Design's Updates for the top web design & development companies.</p>
+					<a href="#"><i class='bx bx-link-alt'></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/donations-donations.jpg" alt="">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check out 10 Best Design's Updates for the top web design & development companies.</p>
+					<a href="#"><i class='bx bx-link-alt'></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="img/media.jpg" alt="">
+				<div class="layer">
+					<h5>Visual Design</h5>
+					<p>Check out 10 Best Design's Updates for the top web design & development companies.</p>
+					<a href="#"><i class='bx bx-link-alt'></i></a>
+				</div>
+			</div> 
+		</div>
+	</section>
+
+
+
+
+
+	<!--CONTACT SECTION-->
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contact <span>Me!</span></h2>
+			<h4>If You Have Any Project In Your Mind.</h4>
+			<p>I'm a UI/UX Designer - Creating bold & brave interface design for companies all across the world.</p>
+			<div class="list">
+				<li><a href="#">0759614358</a></li>
+				<li><a href="#">Ltechwebconsultant@gmail.com</a></li>
+				<li><a href="#">Facebook page</a></li>
+			</div>
+
+			<div class="contact-icons">
+				<a href="#"><i class='bx bxl-facebook'></i></a>
+				<a href="#"><i class='bx bxl-twitter'></i></a>
+				<a href="#"><i class='bx bxl-instagram-alt'></i></a>
+				<a href="#"><i class='bx bxl-youtube'></i></a>
+			</div>
+		</div>
+		
+		<div class="contact-form">
+			<form action="">
+				<input type="name" placeholder="YOur Name" required>
+				<input type="email" placeholder="Your Email Address" required>
+				<input type="phone" placeholder="Your Phone Number" required>
+				<textarea name="" id="" cols="30" rows="10" placeholder="How Can I Help You"></textarea>
+				<input type="submit" value="Send Message" class="submit" required>
+			</form>
+		</div>
+		
+	</section>
+
+
+
+
+
+	<!--END SECTION-->
+	<section class="end">
+		<div class="last-text">
+			<p>Copyright &copy 2022 by Ltech All Right  Reserved.</p>
+		</div>
+
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+		</div>
+	</section>
+
+	<!--CUSTOM JS LINK-->
+	<script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
